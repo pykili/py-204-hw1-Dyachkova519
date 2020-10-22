@@ -1,6 +1,26 @@
-# your code here
-for smth in 'a'*10:
-    user_input = input()
-    # your code here
-    if my_cool_condition == True:
-        print(form, lemma)
+string = input()
+count = 1
+a = ''
+b = ''
+c = ''
+form = ''
+lemma = ''
+if string != '' and string[0] != '#':
+    for i in string:
+        if i == '\t':
+            c = b
+            b = a
+            a = count
+        count = count + 1
+    count = 1
+    for t in string:
+        if count > c and count < b:
+            form = form + t
+        count = count + 1
+    count = 1
+    for x in string:
+        if count > b and count < a:
+            lemma = lemma + x
+        count = count + 1
+    if form != lemma:
+        print(form, lemma) 
