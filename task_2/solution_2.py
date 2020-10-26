@@ -15,7 +15,7 @@ for i in a:
                 ma = count
                 letter = t
             count = 0
-if letter > 0:
+if ma > 0:
     print(letter)
 else:
     print("Все символы встречаются одинаково часто")
