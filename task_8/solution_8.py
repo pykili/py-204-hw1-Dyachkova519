@@ -9,3 +9,4 @@ for i in n1:
     count = count + 1
     if num == 0: 
         print(summ / count)
+        break
