@@ -3,7 +3,7 @@ a = input()
 count1 = 0
 ma = 0
 count = 0
-letter = t
+letter = ''
 for i in a:
     count1 += 1
     count2 = 0
